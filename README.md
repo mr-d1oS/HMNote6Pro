@@ -1,2 +1,2 @@
 # HMNote6Pro
-Mod for Xiaomi.eu v1.2
+Mod for Xiaomi.euv 1.2
