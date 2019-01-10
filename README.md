@@ -1,5 +1,3 @@
-# Magisk Module HMNote6Pro
-
 Mod for Xiaomi.eu v1.2
 Description:
 - Bootanimation in the style of MIUI 10 with stock animation
