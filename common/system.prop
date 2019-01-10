@@ -1,0 +1,82 @@
+# This file will be read by resetprop
+#TWEAKS FOR 4PDA
+
+#Запрет на выгрузку ланчера из памяти
+ro.HOME_APP_ADJ=1
+
+#Сохранение jpg в 100% качестве
+ro.media.enc.jpeg.quality=100
+
+#Включение GPU акселерации для отрисовки интерфейса системы
+debug.sf.hw=1
+
+#Отключение задержки звонка
+ro.telephony.call_ring.delay=0
+
+#Оптимизация энергопотребения
+wifi.supplicant_scan_interval=200
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+
+#Увеличение отзывчивости системы
+debug.performance.tuning=1
+video.accelerate.hw=1
+
+#Повышаем качество фото и видеозаписи
+ro.media.dec.jpeg.memcap=8000000
+ro.media.enc.hprof.vid.bps=8000000
+
+#Улучшить качество мобильной сети
+net.ipv4.ip_no_pmtu_disc=0
+net.ipv4.route.flush=1
+net.ipv4.tcp_ecn=0
+net.ipv4.tcp_fack=1
+net.ipv4.tcp_mem=187000 187000 187000
+net.ipv4.tcp_moderate_rcvbuf=1
+net.ipv4.tcp_no_metrics_save=1
+net.ipv4.tcp_rfc1337=1
+net.ipv4.tcp_rmem=4096 39000 187000
+net.ipv4.tcp_sack=1
+net.ipv4.tcp_timestamps=1
+net.ipv4.tcp_window_scaling=1
+net.ipv4.tcp_wmem=4096 39000 187000
+
+#Твики уровня приема сети (3G)
+ro.ril.hsxpa=2
+ro.ril.gprsclass=10
+ro.ril.hep=1
+ro.ril.enable.dtm=1
+ro.ril.hsdpa.category=10
+ro.ril.enable.a53=1
+ro.ril.enable.3g.prefix=1
+ro.ril.htcmaskw1.bitmask=4294967295
+ro.ril.htcmaskw1=14449
+ro.ril.hsupa.category=5
+
+#Твики скорости сети
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
+
+#Ускорить загрузку устройства
+ro.config.hw_quickpoweron=true
+
+#Отключить ведение журнала ошибок ядра
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+
+#HAL3
+persist.camera.HAL3.enabled=1
+
+#Cam4k
+vendor.camera.aux.packagelist=com.bsgmod.camera,com.google.android.GoogleCameraWide,com.android.camera
+vendor.camera.aux.packagelist2=com.android.systemui,com.bsgmod.camera
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp
+persist.camera.eis.enable=1
+persist.camera.is_type=4
+persist.camera.is_mode=4
+persist.camera.HAL3.enabled=1
+persist.camera.max.previewfps=60
+ro.config.calibration_cad=/system/etc/calibration_cad.xml
