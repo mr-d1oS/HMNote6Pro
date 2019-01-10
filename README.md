@@ -1,2 +1,3 @@
-# HMNote6Pro
-Mod for Xiaomi.euv 1.2
+# Magisk Module HMNote6Pro
+
+Mod for Xiaomi.eu v1.2
