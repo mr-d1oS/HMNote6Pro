@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+    <bool name="is_pad">false</bool>
+    <bool name="is_xiaomi">false</bool>
+    <bool name="is_hongmi">true</bool>
+    <bool name="support_alpha_optimized">true</bool>
+    <bool name="support_torch">true</bool>
+    <bool name="support_fm">true</bool>
+    <bool name="support_oldman_mode">true</bool>
+    <bool name="support_dual_sim_card">true</bool>
+    <bool name="is_dual_system">false</bool>
+    <bool name="support_dual_sd_card">true</bool>
+    <bool name="btdebug_enabled">true</bool>
+    <bool name="support_page_layout">false</bool>
+    <bool name="support_record_param">true</bool>
+    <bool name="support_interview_record_param">true</bool>
+    <bool name="support_stereo_record">true</bool>
+    <bool name="support_hd_record_param">true</bool>
+    <bool name="support_screen_paper_mode">true</bool>
+    <bool name="support_button_light">false</bool>
+    <bool name="support_emulated_storage">true</bool>
+    <bool name="support_internal_sdcard">false</bool>
+    <bool name="support_power_mode">true</bool>
+    <bool name="support_dolby">false</bool>
+    <integer name="screen_effect_supported">7</integer>
+    <bool name="support_wapi">true</bool>
+    <bool name="is_mediatek">false</bool>
+    <bool name="support_media_feedback">false</bool>
+    <bool name="support_phone_call_noise_suppression">false</bool>
+    <bool name="support_touch_sensitive">false</bool>
+    <bool name="support_broadcom_wapi">true</bool>
+    <bool name="support_erase_external_storage">true</bool>
+    <bool name="support_extreme_battery_saver">true</bool>
+    <bool name="support_headset">true</bool>
+    <bool name="support_nvdia_wifi_display">false</bool>
+    <bool name="support_eap_sim">true</bool>
+    <bool name="support_screen_optimize">false</bool>
+    <bool name="support_agps">true</bool>
+    <bool name="support_feedback_level">true</bool>
+    <bool name="enable_miui_lite">false</bool>
+    <bool name="support_steps_provider">true</bool>
+    <bool name="support_hall_sensor">true</bool>
+    <bool name="support_hifi">false</bool>
+    <bool name="support_agps_paras">true</bool>
+    <bool name="support_agps_roaming">false</bool>
+    <bool name="support_ir">true</bool>
+    <bool name="support_app_hiding">true</bool>
+    <bool name="is_read_cpu4_freq">false</bool>
+    <bool name="support_cit">true</bool>
+    <bool name="is_xiaomi_device">true</bool>
+    <bool name="support_device_encrypt">true</bool>
+    <bool name="support_camera_burst_shoot">true</bool>
+    <bool name="support_camera_burst_shoot_denoise">true</bool>
+    <bool name="support_camera_movie_solid">true</bool>
+    <bool name="support_camera_shader_effect">true</bool>
+    <bool name="camera_support_india_filter">true</bool>
+    <bool name="support_camera_skin_beauty">true</bool>
+    <bool name="support_camera_age_detection">true</bool>
+    <bool name="support_camera_record_location">true</bool>
+    <bool name="support_camera_water_mark">true</bool>
+    <bool name="support_camera_new_style_time_water_mark">true</bool>
+    <bool name="support_camera_face_info_water_mark">true</bool>
+    <bool name="support_camera_video_pause">true</bool>
+    <bool name="support_camera_boost_brightness">true</bool>
+    <bool name="support_camera_dynamic_light_spot">true</bool>
+    <bool name="is_lower_size_panorama">false</bool>
+    <bool name="support_full_size_panorama">true</bool>
+    <bool name="is_lower_size_effect">false</bool>
+    <bool name="support_nfc">false</bool>
+    <bool name="support_camera_aohdr">true</bool>
+    <bool name="support_camera_hfr">true</bool>
+    <bool name="support_chroma_flash">false</bool>
+    <bool name="support_object_track">true</bool>
+    <bool name="support_camera_4k_quality">true</bool>
+    <bool name="support_camera_audio_focus">false</bool>
+    <bool name="is_camera_use_morpho_lib">true</bool>
+    <bool name="is_camera_replace_higher_cost_effect">false</bool>
+    <bool name="support_camera_manual_function">true</bool>
+    <bool name="support_camera_press_down_capture">true</bool>
+    <bool name="support_camera_torch_capture">true</bool>
+    <bool name="is_camera_freeze_after_hdr_capture">false</bool>
+    <bool name="is_camera_face_detection_need_orientation">false</bool>
+    <bool name="is_camera_hold_blur_background">true</bool>
+    <bool name="support_camera_peaking_mf">true</bool>
+    <bool name="support_camera_gradienter">true</bool>
+    <bool name="is_camera_lower_qrscan_frequency">true</bool>
+    <bool name="is_camera_preview_with_subthread_looper">true</bool>
+    <bool name="is_camera_app_water_mark">true</bool>
+    <bool name="support_camera_tilt_shift">true</bool>
+    <bool name="support_camera_quick_snap">true</bool>
+    <bool name="support_provision_app_permission">true</bool>
+    <bool name="support_pre_installed_application">true</bool>
+    <bool name="support_ota_validate">true</bool>
+    <bool name="support_credentials">true</bool>
+    <string name="vendor">qcom</string>
+    <string name="release_time">1470758400000</string>
+    <integer name="screen_standard_mode">2</integer>
+    <integer name="camera_reduce_preview_flag">14</integer>
+    <integer name="burst_shoot_count">100</integer>
+    <bool name="support_front_flash">true</bool>
+    <integer name="camera_supported_asd">11</integer>
+    <integer name="camera_supported_front_asd">11</integer>
+    <bool name="support_front_hht_enhance">true</bool>
+    <bool name="is_front_remosic_sensor">true</bool>
+    <integer name="cpu_max_freq">200</integer>
+    <float name="camera_exposure_compensation_steps_num">12.0</float>
+    <float name="camera_front_count_down_margin">0.3177</float>
+    <string-array name="remove_lower_perview_size_list">
+        <item>com.tencent.mm</item>
+    </string-array>
+    <string name="camera_continuous_shot_callback_class">ContinuousShotCallback</string>
+    <string name="camera_continuous_shot_callback_setter">setContinuousShotCallback</string>
+    <bool name="fingerprint_wakeup_device">true</bool>
+    <string-array name="fp_nav_event_name_list">
+        <item>fpc_irq_wakeup</item>
+        <item>fp-keys</item>
+        <item>uinput-fpc</item>
+        <item>uinput-goodix</item>
+    </string-array>
+    <integer name="type_soter_finger_pay">2</integer>
+    <bool name="support_gesture_wakeup">true</bool>
+    <bool name="support_led_light">true</bool>
+    <bool name="support_led_color">false</bool>
+    <bool name="support_audio_loopback">true</bool>                                                                  
+    <string-array name="system_data_packagename_list">
+        <item>com.xiaomi.pass</item>
+        <item>com.xiaomi.scanner</item>
+        <item>com.xiaomi.gamecenter</item>
+        <item>com.miui.weather2</item>
+        <item>com.miui.notes</item>
+        <item>com.miui.compass</item>
+        <item>com.miui.calculator</item>
+        <item>com.android.email</item>
+        <item>com.miui.cleanmaster</item>
+        <item>com.mi.misupport</item>
+        <item>com.duokan.reader</item>
+        <item>com.mfashiongallery.emag</item>
+        <item>com.miui.personalassistant</item>
+        <item>com.miui.voip</item>
+        <item>com.miui.yellowpage</item>
+        <item>com.xiaomi.midrop</item>
+        <item>com.android.midrive</item>
+    </string-array>
+    <string-array name="system_data_path_list">
+        <item>/system/data-app/XMPass/XMPass.apk</item>
+        <item>/system/data-app/MiuiScanner/MiuiScanner.apk</item>
+        <item>/system/data-app/GameCenter/GameCenter.apk</item>
+        <item>/system/data-app/Weather/Weather.apk</item>
+        <item>/system/data-app/Notes/Notes.apk</item>
+        <item>/system/data-app/MiuiCompass/MiuiCompass.apk</item>
+        <item>/system/data-app/Calculator/Calculator.apk</item>
+        <item>/system/data-app/Email/Email.apk</item>
+        <item>/system/data-app/CleanMaster/CleanMaster.apk</item>
+        <item>/system/data-app/MiSupport/MiSupport.apk</item>
+        <item>/system/data-app/com.duokan.reader/com.duokan.reader.apk</item>
+        <item>/system/data-app/MiGalleryLockscreen/MiGalleryLockscreen.apk</item>
+        <item>/system/data-app/PersonalAssistant/PersonalAssistant.apk</item>
+        <item>/system/data-app/MiuiVoip/MiuiVoip.apk</item>
+        <item>/system/data-app/YellowPage/YellowPage.apk</item>
+        <item>/system/data-app/MiDrop/MiDrop.apk</item>
+        <item>/system/data-app/MiDrive/MiDrive.apk</item>
+    </string-array>
+    <bool name="support_my_device">true</bool>
+    <bool name="support_main_xiaoai">true</bool>
+    <bool name="support_round_corner">true</bool>
+    <string name="battery_capacity_typ">4000</string>
+    <bool name="support_show_basic_items">true</bool>
+    <bool name="enable_flash_global">false</bool>
+    <bool name="support_new_silentmode">true</bool>
+    <bool name="support_sign_verify_in_cust">true</bool>
+    <bool name="support_ca">true</bool>
+    <bool name="is_legacy_face_beauty">true</bool>
+    <bool name="is_18x9_ratio_screen">true</bool>
+    <bool name="camera_support_ai_lens">true</bool>
+    <bool name="camera_supported_ai_scene">true</bool>
+    <bool name="is_support_portrait">true</bool>
+    <bool name="is_legacy_face_beauty">false</bool>
+    <bool name="support_front_hdr">true</bool>
+    <bool name="support_front_hht">true</bool>
+    <bool name="support_front_bokeh">true</bool>
+    <bool name="support_auto_mirror">true</bool>
+    <bool name="enhance_beauty_with_hht">true</bool>
+    <bool name="support_picture_watermark">true</bool>
+    <bool name="need_video_stabilization_crop">true</bool>
+    <bool name="disable_video_stabilization_in_speed_slow_mode">false</bool>
+    <bool name="enable_algorithm_in_file_suffix">false</bool>
+    <bool name="support_camera_ubifocus">true</bool>
+    <bool name="support_camera_fish_eye">true</bool>
+    <bool name="support_zoom_mfnr">true</bool>
+    <bool name="camera_is_support_portrait_switch">true</bool>
+    <bool name="camera_supported_ai_scene">true</bool>
+    <bool name="sensor_has_latency">true</bool>
+	  <bool name="camera_portrait_mode_supported_ai_scene">true</bool>
+	  <bool name="camera_support_ai_lens">true</bool>
+	  <bool name="camera_supported_front_ai_scene">true</bool>
+	  <bool name="support_camera_filter_in_back_portrait_mode">true</bool>
+    <bool name="support_camera_raw">true</bool>
+    <bool name="support_camera_use_gravity_move_detection">true</bool>
+    <bool name="support_camera_microsecond_exposure_time">true</bool>
+   	<bool name="support_camera_continuous_iso">true</bool>
+	  <bool name="support_camera_manual_function_et">true</bool>
+	  <bool name="support_camera_manual_function_focus">true</bool>
+	  <bool name="support_psensor_pocket_mode">true</bool>
+	  <bool name="support_camera_ubifocus">true</bool>
+    <bool name="support_camera_video_face_detection">true</bool>
+    <bool name="camera_support_portrait_zoom">true</bool>
+    <integer name="support_camera_hdr_default_value">5</integer>
+    <integer name="support_camera_front_hdr_default_value">5</integer>
+    <bool name="camera_is_support_portrait_switch">true</bool>
+    <bool name="process_clcc_in_pending_state">true</bool>
+    <bool name="support_camera_groupshot">true</bool>
+    <bool name="front_fingerprint_sensor">false</bool>
+    <bool name="camera_supported_ai_scene">true</bool>
+    <bool name="is_support_optical_zoom">false</bool>
+    <bool name="support_camera_magic_mirror">true</bool>
+    <bool name="support_full_size_panorama">true</bool>
+    <bool name="is_full_size_effect">true</bool>
+    <bool name="is_vice_back_remoasic_camera">false</bool>
+    <bool name="support_camera_square_mode">true</bool>
+    <bool name="support_camera_hfr_bitrate_scale">true</bool>
+    <integer name="support_camera_hfr_max_quality">3</integer>
+     <bool name="support_camera_video_high_frame">true</bool>
+    <bool name="support_super_resolution">true</bool>
+    <bool name="support_front_beauty_mfnr">true</bool>  
+    <bool name="support_camera_video_front_mirror">true</bool>
+    <bool name="support_papermode_animation">true</bool>
+    <bool name="support_bluetooth_boost">true</bool>
+    <string name="bluetooth_boost_value">0x000011C0</string>
+    <bool name="support_ar_core">true</bool>
+    <bool name="is_support_tele_asd_night">true</bool>
+    <bool name="support_al_esi">true</bool>
+    <bool name="is_video_snapshot_size_limit">false</bool>
+    <bool name="support_parallel_process">true</bool>
+    <bool name="support_hfr_video_pause">true</bool>
+    <bool name="support_3d_face_beauty">true</bool>
+    <!--bool name="is_android_one_device">false</bool-->
+</features>
