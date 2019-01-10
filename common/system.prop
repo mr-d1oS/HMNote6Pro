@@ -1,32 +1,32 @@
 # This file will be read by resetprop
 #TWEAKS FOR 4PDA
 
-#Запрет на выгрузку ланчера из памяти
+#Г‡Г ГЇГ°ГҐГІ Г­Г  ГўГ»ГЈГ°ГіГ§ГЄГі Г«Г Г­Г·ГҐГ°Г  ГЁГ§ ГЇГ Г¬ГїГІГЁ
 ro.HOME_APP_ADJ=1
 
-#Сохранение jpg в 100% качестве
+#Г‘Г®ГµГ°Г Г­ГҐГ­ГЁГҐ jpg Гў 100% ГЄГ Г·ГҐГ±ГІГўГҐ
 ro.media.enc.jpeg.quality=100
 
-#Включение GPU акселерации для отрисовки интерфейса системы
+#Г‚ГЄГ«ГѕГ·ГҐГ­ГЁГҐ GPU Г ГЄГ±ГҐГ«ГҐГ°Г Г¶ГЁГЁ Г¤Г«Гї Г®ГІГ°ГЁГ±Г®ГўГЄГЁ ГЁГ­ГІГҐГ°ГґГҐГ©Г±Г  Г±ГЁГ±ГІГҐГ¬Г»
 debug.sf.hw=1
 
-#Отключение задержки звонка
+#ГЋГІГЄГ«ГѕГ·ГҐГ­ГЁГҐ Г§Г Г¤ГҐГ°Г¦ГЄГЁ Г§ГўГ®Г­ГЄГ 
 ro.telephony.call_ring.delay=0
 
-#Оптимизация энергопотребения
+#ГЋГЇГІГЁГ¬ГЁГ§Г Г¶ГЁГї ГЅГ­ГҐГ°ГЈГ®ГЇГ®ГІГ°ГҐГЎГҐГ­ГЁГї
 wifi.supplicant_scan_interval=200
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
 
-#Увеличение отзывчивости системы
+#Г“ГўГҐГ«ГЁГ·ГҐГ­ГЁГҐ Г®ГІГ§Г»ГўГ·ГЁГўГ®Г±ГІГЁ Г±ГЁГ±ГІГҐГ¬Г»
 debug.performance.tuning=1
 video.accelerate.hw=1
 
-#Повышаем качество фото и видеозаписи
+#ГЏГ®ГўГ»ГёГ ГҐГ¬ ГЄГ Г·ГҐГ±ГІГўГ® ГґГ®ГІГ® ГЁ ГўГЁГ¤ГҐГ®Г§Г ГЇГЁГ±ГЁ
 ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.hprof.vid.bps=8000000
 
-#Улучшить качество мобильной сети
+#Г“Г«ГіГ·ГёГЁГІГј ГЄГ Г·ГҐГ±ГІГўГ® Г¬Г®ГЎГЁГ«ГјГ­Г®Г© Г±ГҐГІГЁ
 net.ipv4.ip_no_pmtu_disc=0
 net.ipv4.route.flush=1
 net.ipv4.tcp_ecn=0
@@ -41,7 +41,7 @@ net.ipv4.tcp_timestamps=1
 net.ipv4.tcp_window_scaling=1
 net.ipv4.tcp_wmem=4096 39000 187000
 
-#Твики уровня приема сети (3G)
+#Г’ГўГЁГЄГЁ ГіГ°Г®ГўГ­Гї ГЇГ°ГЁГҐГ¬Г  Г±ГҐГІГЁ (3G)
 ro.ril.hsxpa=2
 ro.ril.gprsclass=10
 ro.ril.hep=1
@@ -53,22 +53,19 @@ ro.ril.htcmaskw1.bitmask=4294967295
 ro.ril.htcmaskw1=14449
 ro.ril.hsupa.category=5
 
-#Твики скорости сети
+#Г’ГўГЁГЄГЁ Г±ГЄГ®Г°Г®Г±ГІГЁ Г±ГҐГІГЁ
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
 
-#Ускорить загрузку устройства
+#Г“Г±ГЄГ®Г°ГЁГІГј Г§Г ГЈГ°ГіГ§ГЄГі ГіГ±ГІГ°Г®Г©Г±ГІГўГ 
 ro.config.hw_quickpoweron=true
 
-#Отключить ведение журнала ошибок ядра
+#ГЋГІГЄГ«ГѕГ·ГЁГІГј ГўГҐГ¤ГҐГ­ГЁГҐ Г¦ГіГ°Г­Г Г«Г  Г®ГёГЁГЎГ®ГЄ ГїГ¤Г°Г 
 ro.kernel.android.checkjni=0
 ro.kernel.checkjni=0
-
-#HAL3
-persist.camera.HAL3.enabled=1
 
 #Cam4k
 vendor.camera.aux.packagelist=com.bsgmod.camera,com.google.android.GoogleCameraWide,com.android.camera
