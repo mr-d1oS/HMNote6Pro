@@ -1,32 +1,31 @@
-# This file will be read by resetprop
 #TWEAKS FOR 4PDA
 
-#Çàïðåò íà âûãðóçêó ëàí÷åðà èç ïàìÿòè
+#The ban on unloading lunch from memory
 ro.HOME_APP_ADJ=1
 
-#Ñîõðàíåíèå jpg â 100% êà÷åñòâå
+#Saving jpg in 100% quality
 ro.media.enc.jpeg.quality=100
 
-#Âêëþ÷åíèå GPU àêñåëåðàöèè äëÿ îòðèñîâêè èíòåðôåéñà ñèñòåìû
+#Enable GPU acceleration to draw system interface
 debug.sf.hw=1
 
-#Îòêëþ÷åíèå çàäåðæêè çâîíêà
+#Deactivate call delay
 ro.telephony.call_ring.delay=0
 
-#Îïòèìèçàöèÿ ýíåðãîïîòðåáåíèÿ
+#Energy Optimization
 wifi.supplicant_scan_interval=200
 pm.sleep_mode=1
 ro.ril.disable.power.collapse=0
 
-#Óâåëè÷åíèå îòçûâ÷èâîñòè ñèñòåìû
+#Increase system responsiveness
 debug.performance.tuning=1
 video.accelerate.hw=1
 
-#Ïîâûøàåì êà÷åñòâî ôîòî è âèäåîçàïèñè
+#Improving the quality of photos and videos
 ro.media.dec.jpeg.memcap=8000000
 ro.media.enc.hprof.vid.bps=8000000
 
-#Óëó÷øèòü êà÷åñòâî ìîáèëüíîé ñåòè
+#Improve the quality of the mobile network
 net.ipv4.ip_no_pmtu_disc=0
 net.ipv4.route.flush=1
 net.ipv4.tcp_ecn=0
@@ -41,7 +40,7 @@ net.ipv4.tcp_timestamps=1
 net.ipv4.tcp_window_scaling=1
 net.ipv4.tcp_wmem=4096 39000 187000
 
-#Òâèêè óðîâíÿ ïðèåìà ñåòè (3G)
+#Tweaks network reception level (3G)
 ro.ril.hsxpa=2
 ro.ril.gprsclass=10
 ro.ril.hep=1
@@ -53,17 +52,17 @@ ro.ril.htcmaskw1.bitmask=4294967295
 ro.ril.htcmaskw1=14449
 ro.ril.hsupa.category=5
 
-#Òâèêè ñêîðîñòè ñåòè
+#Network speed tweaks
 net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.umts=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
 net.tcp.buffersize.edge=4096,87380,256960,4096,16384,256960
 
-#Óñêîðèòü çàãðóçêó óñòðîéñòâà
+#Speed up device loading
 ro.config.hw_quickpoweron=true
 
-#Îòêëþ÷èòü âåäåíèå æóðíàëà îøèáîê ÿäðà
+#Disable Kernel Error Logging
 ro.kernel.android.checkjni=0
 ro.kernel.checkjni=0
 
