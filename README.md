@@ -28,5 +28,6 @@ Description:
 - Increase battery life
 - GCam support
 - UHD 4k video recording (30fps)
-
-Discussion: http://4pda.ru/forum/index.php?s=&showtopic=927965&view=findpost&p=80049580
+# Change Log
+# Discussion
+http://4pda.ru/forum/index.php?s=&showtopic=927965&view=findpost&p=80049580
