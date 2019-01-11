@@ -29,5 +29,14 @@ Description:
 - GCam support
 - UHD 4k video recording (30fps)
 # Change Log
+v1.2
+- Mod rebuilt in Magisk-Modules
+- VM Management (Dalvik-cache)
+- Compress database application and system
+- Optimization of installed applications
+- Tweaks for kernels (Kernel)
+- Internet speed tweaks
+- Increase battery life
+- UHD 4k video recording (30fps)
 # Discussion
 http://4pda.ru/forum/index.php?s=&showtopic=927965&view=findpost&p=80049580
