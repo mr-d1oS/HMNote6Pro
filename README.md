@@ -1,4 +1,4 @@
-# HMNote6Pro Mod for Xiaomi.eu v1.2
+# HMNote6Pro Mod for Xiaomi.eu
 Description:
 - Bootanimation in the style of MIUI 10 with stock animation
 - Fonts Mi Lanting with operator icons in status bar
