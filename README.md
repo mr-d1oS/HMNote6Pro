@@ -29,6 +29,4 @@ Description:
 - GCam support
 - UHD 4k video recording (30fps)
 
-Discussion:
-
-http://4pda.ru/forum/index.php?s=&showtopic=927965&view=findpost&p=80049580
+Discussion: http://4pda.ru/forum/index.php?s=&showtopic=927965&view=findpost&p=80049580
